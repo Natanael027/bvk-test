@@ -1,0 +1,11 @@
+react-app/node_modules/
+
+react-app/build/
+backend/target/
+
+backend/.gradle/
+
+.DS_Store
+
+*.log
+*.tmp
