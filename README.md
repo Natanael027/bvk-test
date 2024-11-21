@@ -26,10 +26,10 @@ The backend provides the necessary endpoints for the frontend to perform CRUD op
 ### API Endpoints
 
 - **GET `/user/all`**: Fetch all organization users.
-- **GET `/user/home`**: Fetch all organization users.
+- **GET `/user/home`**: Fetch all users with pagination.
 - **POST `/user/create`**: Add a new user to the organization.
 - **GET `/user/{id}`**: Fetch a user's details by ID.
-- **GET `/user/{id}/enabled/{status}`**: Fetch a user's details by ID.
+- **GET `/user/{id}/enabled/{status}`**: Enable/Disable user's status by ID.
 - **PUT `/user/update/{id}`**: Update a user's details.
 - **DELETE `/user/delete/{id}`**: Remove a user from the organization.
 
